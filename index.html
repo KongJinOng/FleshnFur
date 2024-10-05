@@ -1,0 +1,281 @@
+<!-- The website was designed in a resolution of 1920x1080. Please view in it for the best experience -->
+
+
+<!-- Setting up the webpage -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Cover Section -->
+  <div class="container1">
+    <section id="showcase">
+        <h1><mark>Flesh and Fur</mark></h1>
+    </section>
+
+    <!-- Introdcution Section -->
+      <section id="introduction">
+        <h1>A <span style="color: orange">beauty</span> isn't he?<br></h1>
+
+        <p>Seen these creatures in a movie? Or in a recent art exhbition you've visited latey? I'm sure you know by now, these creatures are the Panthera Tigris,
+          or more commonly reffered to as Tigers.
+          <br>
+          <br>
+          Widely
+          known for its dark vertical stripes on orange fur, the animal is amongst some of the world's most
+          recognisable charismatic megafauna.<br><br>
+        </p>
+        </section>
+
+      <!-- Tiger Population Section   -->
+      <section id="tigerpopulation">
+          <h1>They are unfortunately, very severely <mark>endangered</mark></h1>
+          <p>The global population of wild tigers has plummeted from an initial 100,000 wild tigers at the
+            start of the 20th century to an estimated 3,200 last year. This places them as one of the most
+            endangered animals in the world right now.
+         </P>
+         <!-- Tiger Population Area Line Graph -->
+            <div id="tigerpopulationgraph"></div>
+      </section>
+
+
+      <!-- Tiger Population Geo Chloropleth Section -->
+      <section id="TrcPop">
+              <br>
+        <h2>As of 2022, wild tigers can only be found in <mark>13 countries.</mark>
+          <br>
+          <span style="color: orange">More than 50%</span> of them reside in India. </h2>
+
+      <p>
+        These 13 countries are globally known as Tiger Range Countries. (TRCs)
+        Only 8 of them are recorded to be  active breeding grounds for wild tigers.  These 8 countries are
+        Bangladesh, Bhutan, Thailand, Indonesia, Russia, Malaysia, Nepal & India.
+      </P>
+      <div id="TrcChloropleth"></div>
+      </section>
+
+      <!-- Why Section -->
+      <section id="trading">
+        <h1><mark>Why</mark> is this happening?</h1>
+          <p>
+          While habitat loss, poor land use and conflict with humans pose pressures to wild tiger populations, <span style="color: orange; font-weight: 700;">poaching and illegal trade</span> have been the primary cause for their decline.
+            <br>
+            <br>
+          Every year, illegal wildlife trade amounts to $20 billion worth of animal parts, and is the <span style="color: orange; font-weight: 700;">third most profitable trade</span> on the black market.
+          Tigers are mercilessly targeted by poachers to satisfy the demand from the trade.
+            <br>
+            <br>
+          </P>
+          <br>
+    </section>
+      <!-- Seizure Section -->
+      <section id="Seizures">
+
+        <h2> From 2000 to 2018, <mark>more than 77% of illegal tiger parts</mark> were seized in TRCs, with India massively leading.</h2>
+
+        <!-- Seizure Bar Graph -->
+           <div id="TrcSeizuresBar"></div>
+           <!-- Seizure Geo Scatter  -->
+          <div id="TrcSeizures"></div>
+          <br>
+            <br>
+            <br>
+
+          <section class="hotspottext">
+
+            <p style=" font-weight: 900; font-size: 20px;">
+              Parts were most commonly seized around these hotspots:</p>
+
+            <p style="color: orange; font-weight: 700;">
+              In and around protected tiger reserves in India </p>
+
+            <p style=" font-size: 18px;">With India containing the largest wild tiger population globally,
+              it's no surprise that poachers target these areas. According to multiple sources, a large part of tigers poached
+              here are funneled into China due to high demands.</p>
+
+            <p style="color: orange; font-weight: 700;">
+              Around the island of Sumatra, Indonesia</p>
+
+            <p style=" font-size: 18px;">Sumatra is home to the Sumatran Tigers. It is estimated that almost
+              80% of Sumatran Tiger deaths were due to illegal poaching, amounting to almost 40 last year. </p>
+
+            <p style="color: orange; font-weight: 700;">
+              Major international transportation Routes </p>
+
+            <p style=" font-size: 18px;">These routes are often used by traffickers as means to transport tiger related
+              commodities for illegal trading. </p>
+
+          </section>
+      </section>
+
+
+      <!-- Tigers in Captivity Section -->
+      <section id="asian">
+
+        <h1>Tigers in <mark>Captivity</mark></h1>
+
+        <p>
+        Over the years, the demand for tigers has led to the <span style="color: orange; font-weight: 700;">mass development of inhumane tiger breeding farms,</span> where tigers are actively bred,
+        slaughtered and traded under undesirable conditions.
+        <br>
+        <br>
+        From 2005 to 2019, the percentage of whole tigers seized from captive-bred sources increased from <span style="color: orange; font-weight: 700;">9% to over 50%,</span> with a minimum of <span style="color: orange; font-weight: 700;">744
+        suspected captive-bred whole tigers seized.</span>
+
+        </P>
+
+    </section>
+
+    <!-- Captive Visualisation Section -->
+      <section id="Captive">
+        <br>
+         <h2><mark>Thailand and Vietnam</mark> stand out, with 81% and 67% of their seized tigers suspected from captive-bred sources.</h2>
+
+          <div id="CaptiveGraph"></div>
+          <p>
+            Tiger reserves play a significant part in Thailand's massive tourism industry. However, over the years there have been increasing
+            reports of these reserves being irresponsibly run. Much of these reserves were reported to be farming tigers for unethical
+            wildlife entertainment and illegal trading purposes.
+          </p>
+
+            <br>
+            <br>
+
+            <h2><span style="color: orange; font-weight: 700;">The Wat Pha Luang Ta Bua Yanasampanno Temple </span></h2>
+              <br>
+            <img src="tiger cubs .jpeg" width="1000" height="500">
+              <br>
+              <p>One such reserve is the Wat Pha Luang Ta Bua Yanasampanno Temple. For years, the temple has been
+                a popular tourist hotspot where tourists could see tigers and monks living together in harmony.
+                However, there have been allegations about the temple sedating their tigers and being involved in illegal wildlife trades.
+                <br>
+                <br>
+                In 2016, Thai officers raided the temple and seized a total of 60 dead cubs, amongst a plethora of
+                Tiger commodities. 147 other live tigers were also confiscated in the process.
+              </p>
+
+      </section>
+
+      <!-- Legislation Section -->
+      <section id="Government">
+
+        <h1>Legislation & Policy <mark>Loopholes</mark></h1>
+
+        <p>
+        Despite institutional efforts over the years to combat animal related crimes, policies still fall short in certain countries.
+        <br>
+        <br>
+        These countries have <span style="color: orange; font-weight: 700;">disproportionately low commercial penalties</span> for illegal wildlife trade. Due to the commercial nature of such crimes,
+         active and potential poachers are massively incentivised to continue hunting.
+        <br>
+        <br>
+        Along with weak criminal response, endangered animal products <span style="color: orange; font-weight: 700;">continue to run rampant in black markets.</span>
+
+        </P>
+
+    </section>
+
+        <!-- Online Listings for Tiger -->
+          <section id="Prosecuted" >
+            <br>
+        <h2><mark>77% of online listings</mark> for tiger parts were located in Vietnam.</h2>
+
+      <p>
+        Vietnam is a striking example of this. Vietnam only
+        reported 89 cases of seizures in the last two decades. However, in <span style="color: orange; font-weight: 700;">2019 to 2022 alone,</span> it was reported that there were a minimum of
+        <span style="color: orange; font-weight: 700;">515 Vietnamese based facebook accounts</span> actively selling tiger commodities.
+        <br>
+        <br>
+        The differences in these numbers are indicative of weak criminal responses within the country.
+      </P>
+          <!-- Bar Graph for Online Listings -->
+          <div id="OnlineListing"></div>
+
+          </section>
+
+          <!-- Tiger Bone Case Study -->
+          <section id="Captive">
+
+            <h2><span style="color: orange; font-weight: 700;">China's continued manufacturing of Tiger Bone Wine</span></h2>
+            <br>
+            <img src="bonewine.jpeg" width="1000" height="500">
+            <br>
+            <p>Another case in point is the ongoing manufacturing of Tiger bone wine in China. Sanhong is a Chinese based company that manufactures tiger bone wine.
+              They specifically market their products to contain real tiger bones. In 2012, an investigation was launched to study the company and Chinese policies on endangered
+              Chinese Policies.
+              <br>
+              <br>
+              It was found that Chinese policies <span style="color: orange; font-weight: 700;">permitted the use of tiger bones from captive based animals</span> within the country.
+              Sanhong was also found to be <span style="color: orange; font-weight: 700;">operating under legal permissions from the government</span> to use tiger bones in their products as long as they did not list
+              "tiger bone" as an ingredient on the packaging.
+              <br>
+              <br>
+            </p>
+          </section>
+
+
+
+          <!-- Conclusion Section -->
+      <section id="conclusion">
+        <h1 style="color: white;">How can we <mark>help?</mark></h1>
+
+        <p>While it is very much apparent that a significant part of conserving current wild tiger populations relies
+          on solving multiple institutional issues, there is still a lot we can do individually. It is not too late.
+        <br>
+        <br>
+        According to Panthera, a recent report has shown that global populations have stabilized in the past years due to improved investments in tiger conservation. Wild tiger populations have since increased by 40% from 2010
+        to 2022. Last year's count stood at approximately 4500. 
+          <br>
+          <br>
+        </p>
+
+        <p style="color: white; font-weight: 900;">We can help keep the numbers up by:</p>
+
+          <p style="color: orange; font-weight: 900;">
+            Engaging in responsible tourism and consumption  </p>
+
+          <p style=" font-size: 18px;"> Demands are the reason why unethical wildlife entertainment and goods exist. Change starts from within.
+            By being responsible in the places you visit and the products you consume, you can help to reduce demands for animal commodities.
+
+            </p>
+
+          <p style="color: orange; font-weight: 900;">
+            It doesn't stop at consumerism. Be vocal about the need for change. </p>
+
+          <p style=" font-size: 18px;">
+            Intervene, educate, and raise awareness. Every individual enlightened is a step towards the right direction.
+            Sign petitions to urge governments to reevaluate their legislation on animal related crimes.
+
+            </p>
+
+      </section>
+
+        </section>
+
+
+
+
+
+
+    
+
+</body>
+<script src="script.js"></script>
+
+
+
+
+</html>
+
+
+

@@ -1,0 +1,464 @@
+/* General Styling */
+
+*{
+    box-sizing: border-box;
+    font-family: 'Epilogue', sans-serif;
+  }
+
+  /* For Macbook  */
+@media screen and (max-width: 900px) {
+  .view {
+      width: 500px ;
+  }
+}
+
+  mark {
+    background-color: red;
+    color:black;
+  }
+
+  hr{
+    color:white;
+  }
+
+  h1{
+    font-size:60px;
+  }
+
+  p{
+    font-size:20px;
+  }
+
+  
+  p2{
+    font-size:20px;
+  }
+
+  hr{
+    color:#fff;
+  }
+  
+  body{
+    font-size:17px;
+    color:#f4f4f4;
+    background-color: black;
+    line-height:1.6;
+  }
+
+
+
+/* Article Title Page */
+  #showcase{
+    background-image:url('efe-yagiz-soysal-PUrHke-Hlf8-unsplash.jpg');
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:0 20px;
+   
+  }
+  
+  #showcase h1{
+    font-size:90px;
+    /* line-height:1.2; */
+    font-family: 'Epilogue', sans-serif;
+    padding-bottom:50px;
+  }
+  
+  #showcase p{
+    font-size:20px;
+  }
+  
+  #showcase .button{
+    font-size:18px;
+    text-decoration:none;
+    color:#fff;
+    border:#fff 1px solid;
+    padding:10px 20px;
+    border-radius:10px;
+    margin-top:20px;
+  }
+  
+  #showcase .button:hover{
+    background:#926239;
+    color:#fff;
+  }
+
+  #introduction{
+    background-image:url('blackwhite.jpg');
+    background-size:cover;
+    width:100%;
+    height:100vh;
+   
+
+   /* Introduction Section  */
+    
+  }
+
+  #introduction h1{
+    font-family: 'Epilogue', sans-serif;
+    font-size:60px;
+    line-height:1.2;
+    padding-top:100px;
+    padding-left:100px;
+    text-shadow: 1px  black;
+  }
+
+  #introduction p{
+    width:42%;
+    font-family: 'Epilogue', sans-serif;
+    float:left;
+    padding-left:100px;
+    font-size:20px;
+    
+
+  }
+
+  #tigerpopulation{
+    width:100%;
+    height:1000px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:0 20px; 
+    margin-top:40px;
+  }
+  
+  #tigerpopulation h1{
+    font-size:50px;
+  }
+
+  #tigerpopulation p{
+    width:60%;
+    font-size:20px;
+  }
+  
+ 
+
+  .wrapper{
+    margin: auto;
+    width: 98%;
+    padding-top: 70px;
+    padding-bottom: 50px;
+  }
+
+  .text-box {
+    float:right;
+    width:40%;
+    padding-top:150px;
+    
+
+  }
+
+  #tigerpopulationgraph{
+    
+    width: 100%;
+    margin:auto;
+    align-items: center;
+    padding-left:315px;
+    
+  }
+
+
+  /* Illegal Poaching Section */
+
+  #trading{
+   
+    width:100%;
+    height:60vh;
+    background: url(traffick.PNG) no-repeat;
+    background-position: 1000px;
+
+    box-sizing: border-box;
+    box-shadow: inset 1200px 0 700px 0 black; 
+  
+    }
+
+    #trading h1{
+      font-family: 'Epilogue', sans-serif;
+      font-size:60px;
+      line-height:1.2;
+
+      padding-left:100px;
+      text-shadow: 1px  black;
+    }
+
+    #trading h2{
+      width:59%;
+      font-family: 'Epilogue', sans-serif;
+      float:left;
+      padding-left:100px;
+      font-size:20px;
+    }
+
+    #trading p{
+      width:42%;
+      font-family: 'Epilogue', sans-serif;
+      float:left;
+      padding-left:100px;
+      font-size:20px;
+    }
+
+
+    /* Tiger in Captivity Sections */
+
+    #asian{
+      width:100%;
+    height:70vh;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 200px, rgb(0, 0, 0) 900px, rgb(0, 0, 0) 240px), url(tigercage.PNG) no-repeat;
+  
+    
+      }
+  
+      #asian h1{
+        font-family: 'Epilogue', sans-serif;
+        font-size:60px;
+        line-height:1.2;
+        padding-top:100px;       
+        text-shadow: 1px  black;
+        text-align: right;
+        padding-right:100px;
+        
+        
+      }
+  
+      #asian p{
+        width:45%;
+        font-family: 'Epilogue', sans-serif;
+        font-size:20px;
+        padding-right:100px;
+        float: right;
+      }
+
+ 
+   
+  
+
+   /* TIGER POPULATION Section   */
+  #TrcPop{
+    width:100%;
+    height:1000px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:0 20px; 
+    margin-top:40px;
+  }
+
+  #TrcPop h1{
+    font-size: 50px;
+    width:70%
+  }
+
+  #TrcPop p{
+    width:70%;
+    font-size:20px;
+    
+    
+  }
+
+
+  #TrcChloropleth{  
+    width:100%;
+    padding-left: 100px;
+  }
+
+
+
+
+/* 
+  SEIZURE SECTION */
+
+  #Seizures{
+    width:100%;
+    display: inline-block;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 50px;
+  }
+
+  #Seizures h1{
+    width:55%;
+    font-size: 29px;
+    line-height: 50px;
+  }
+
+  #Seizures h2{
+    width:65%;
+    padding-left: 40px;
+   
+  }
+
+
+
+  
+  .hotspottext{
+    width:40%;
+    float: right;
+ 
+  }
+
+
+  #TrcSeizuresBar{
+    width:100%;
+    margin:auto;
+
+  
+  }
+
+  #TrcSeizures{
+    width:50%;
+    float:left;
+    padding-top: 70px;
+ 
+  }
+
+  #bubble{
+    padding-left: 250px;
+  }
+
+
+  
+  /* CAPTIVE SECTION */
+
+  #Captive{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:0 20px;  
+  }
+  
+  
+  #Captive p{
+    width:70%;
+    text-align:center;
+  }
+
+  #Captive h2{
+    width:70%;
+    text-align:center;
+  }
+
+  #CaptiveGraph{
+    width:100%;
+    margin:auto;
+    padding-left: 100px;
+  }
+
+
+
+
+  /* PROSECUTED SECTION */
+
+
+  #Government{
+  width:100%;
+  height:100vh;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 200px, rgb(0, 0, 0) 900px, rgb(0, 0, 0) 240px), url(government.jpg) no-repeat;
+
+  
+    }
+
+    #Government h1{
+      font-family: 'Epilogue', sans-serif;
+      font-size:60px;
+      line-height:1.2;
+      padding-top:100px;       
+      text-shadow: 1px  black;
+      text-align: right;
+      padding-right:100px;
+      
+      
+    }
+
+    #Government p{
+      width:45%;
+      font-family: 'Epilogue', sans-serif;
+      font-size:20px;
+      padding-right:100px;
+      float: right;
+    }
+
+   #Prosecuted{
+    width:100%;
+    display: inline-block;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 50px;
+
+  }
+
+  #Prosecuted h1{
+    font-size: 50px;
+
+  } 
+
+  #Prosecuted p {
+    width:40%;
+    float: right;
+  }
+
+  #ProsecutedType{
+    float:left;
+    width:50%
+  }
+
+  /* CONCLUSION SECTION */
+
+  #conclusion{
+    width:100%;
+    height:100vh;
+    background: url(conclusion.jpeg) no-repeat;
+    background-position: 750px;
+    background-size: 80%;
+
+    box-sizing: border-box;
+    box-shadow: inset 1200px 0 700px 0 black; 
+  }
+
+  #conclusion h1{
+    font-family: 'Epilogue', sans-serif;
+    font-size:60px;
+    line-height:1.2;
+    padding-top:100px;
+    padding-left:100px;
+    text-shadow: 1px  white;
+  }
+
+  #conclusion h2{
+    width:52%;
+    font-family: 'Epilogue', sans-serif;
+    padding-left:100px;
+    font-size:19px;
+    color: white
+  }
+
+  #conclusion p{
+    width:50%;
+    font-family: 'Epilogue', sans-serif;
+    padding-left:100px;
+    font-size:20px;
+    color: white;
+  }
+
+
+  
+
+
+
+
+
+
+ 
+ 
